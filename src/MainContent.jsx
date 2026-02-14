@@ -1,15 +1,23 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
+import CardData from './CardData'
 
 export default function MainContent(props) {
-    return(
-    <div className="card-list">
-    <img className="img-container"  src={props.image} alt="img" />
+    const Card = CardData.map((card) => {
+        return (
+            <div className="card-list">
+    <img className="img-container"  src={card.image} alt="img" />
     <div className="text-container">
-        <a href={props.link}><FontAwesomeIcon icon={faCircleInfo} /></a>
-        <h1>{props.name}</h1>
-        <p>{props.desc}</p>
+        <a href={card.link}><FontAwesomeIcon icon={faCircleInfo} /></a>
+        <h1>{card.name}</h1>
+        <p>{card.desc}</p>
     </div>
     </div>
+        )
+    })
+    return (
+        <div className="card-grid">
+            {Card}
+        </div>
     )
 }
