@@ -31,6 +31,7 @@ span {
   object-fit: cover;
   object-position: center;
   border-radius: 1rem;
+  margin-left: 1rem;
 }
 
 .text-container {
@@ -44,33 +45,66 @@ span {
   justify-content: center;
 }
 
-.card-list {
+.card {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(85, 220, 207);
-  margin-inline: 13.25rem;
-  margin-block: 2rem;
+  margin-inline: 14rem;
   padding-block: 1rem;
   border-radius: 2rem;
 }
 
-.card-list:hover {
+.card:hover {
   animation: scalecard 0.3s ease-in-out forwards;
 }
 
-.card-list:hover .img-container {
+.card:hover .img-container {
   animation: imgcolor 0.3s ease-in-out forwards;
+}
+  
+.card-grid {
+  display: grid;
+  grid-template-columns:  repeat(1, 1fr);
+  row-gap: 2rem;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(64, 64, 64);
   font-size: 1.2rem;
+}
+
+.location {
+  color: rgb(64, 64, 64);
+  font-size: 1rem;
+  align-items: center;
+}
+
+.location:hover {
+  cursor: pointer;
 }
 
 .globe:hover {
   animation : rotateicon 0.3s ease-in-out forwards;
+}
+
+.gap {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.wiki:hover {
+  color: turquoise;
+  border: 1px solid turquoise;
+  border-radius: 50%;
+}
+
+.country {
+  color: rgb(236, 31, 31);
+  font-size: 1.2rem;
+  align-items: center;
+  margin-right: 1rem;
 }
 
 @keyframes rotateicon {
@@ -89,10 +123,6 @@ a {
 }
 
 
-article:hover {
-    animation: scalecard 1s ease-in-out forwards;
-}
-
 @keyframes scalecard {
     0% {
         transform: scale(1);
@@ -100,7 +130,7 @@ article:hover {
     100% {
         transform: scale(1.05);
         background-color: lightcyan;
-        border: 1px solid turquoise;
+        border: 1.5px solid turquoise;
         box-shadow: 0px 0px 10px rgb(116, 219, 208) ;
     }
 }
@@ -109,9 +139,13 @@ article:hover {
     0% {
     }
     100% {
-      border: 1px solid  rgb(207, 89, 108);
+      border: 1.5px solid  rgb(207, 89, 108);
       box-shadow: 0px 0px 10px rgb(207, 89, 108);
     }
+}
+
+/*article:hover {
+    animation: scalecard 1s ease-in-out forwards;
 }
 
 article {
@@ -151,4 +185,4 @@ article h3 {
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
-}
+} */
