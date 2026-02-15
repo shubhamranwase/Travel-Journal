@@ -6,6 +6,7 @@
 
 body {
   background-color:rgb(255, 140, 140);
+  background-image: linear-gradient( rgb(255, 140, 140),rgb(208, 184, 152));
 }
 
 .navbar {
