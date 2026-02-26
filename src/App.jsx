@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
-import MainContent from "./MainContent";
+import MainContent from "./Components/MainContent";
+import Actions from "./Components/Actions";
 import Contacts from "./Components/Contacts";
 
 
@@ -8,6 +9,7 @@ export default function App() {
     <>
       <Header />
       <MainContent />
+      <Actions />
 
       {/* <div className="card-grid">
       <Contacts image="img" name="John Wick" phone="123-456-7890" email="abc@gmail.com"/>

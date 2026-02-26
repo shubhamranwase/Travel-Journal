@@ -5,9 +5,9 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import CardData from './CardData'
 
 export default function MainContent(props) {
-    const Card = CardData.map((card) => {
+    const Card = CardData.map((card, index) => {
         return (
-    <div className="card">
+    <div className="card" key={index}>
     <img className="img-container"  src={card.image} alt="img" />
     <div className="text-container">
         <a className='country' href={card.countrylink}><FontAwesomeIcon icon={faLocationDot} />{card.country}</a>
