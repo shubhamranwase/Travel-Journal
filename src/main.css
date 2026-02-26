@@ -72,6 +72,22 @@ span {
   margin-inline: 14rem;
   padding-block: 1rem;
   border-radius: 2rem;
+  animation: card-appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+
+}
+
+@keyframes card-appear {
+  0% {
+    transform: translateX(100px) translateY(40px) scale(0.9) ;
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
 
 .card:hover {

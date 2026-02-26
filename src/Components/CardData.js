@@ -34,5 +34,50 @@ export default [
         countrylink:"https://maps.app.goo.gl/De4WSRJaCngicbVf8", 
         desc:"Petra is a historical city in Jordan known for its rock-cut architecture and water conduit system.",
         link:"https://en.wikipedia.org/wiki/Petra"
-    }
+    },
+    {
+    location:"https://maps.app.goo.gl/7u6YkX8tYhXcQ7zF9",
+    image:"https://imgs.search.brave.com/eut_aZFeeWLDGe6n0wqZo51ghQh_tef1CD-vfsMMt0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuaG9yaXpvbmd1/aWRlcy5jb20vaW1h/Z2VzL2d1aWRlcy9f/bWF0cml4SW1hZ2Uv/Q2hpbmFfR3JlYXRX/YWxsLmpwZw",
+    name:"Great Wall of China",
+    country:"China",
+    countrylink:"https://maps.app.goo.gl/7u6YkX8tYhXcQ7zF9",
+    desc:"The Great Wall of China is a series of fortifications built across northern China, stretching over 21,000 kilometers.",
+    link:"https://en.wikipedia.org/wiki/Great_Wall_of_China"
+},
+{
+    location:"https://maps.app.goo.gl/9zYkX8tYhXcQ7zF9",
+    image:"https://imgs.search.brave.com/AA544wdn-0rd9eVb-yfKcu13NtBthUbge24E3ixfIEo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM0/NjA0ODczMy9waG90/by90YWotbWFoYWwt/bWF1c29sZXVtLWlu/LWFncmEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPTl0YjlK/SmZfTmNJem1iMWFi/UVJxaHk2SDBma240/QTJXVlVGY0hxSlY3/LWc9",
+    name:"Taj Mahal",
+    country:"India",
+    countrylink:"https://maps.app.goo.gl/9zYkX8tYhXcQ7zF9",
+    desc:"The Taj Mahal is a white marble mausoleum in Agra, India, built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+    link:"https://en.wikipedia.org/wiki/Taj_Mahal"
+},
+{
+    location:"https://maps.app.goo.gl/5y6YkX8tYhXcQ7zF9",
+    image:"https://media.gettyimages.com/id/1695583328/photo/sunset-behind-the-illuminated-statue-of-liberty-in-new-york-harbor.jpg?s=612x612&w=0&k=20&c=i7OQXwpTRqitCgk12zDoO0ufaxtzVZVU1MNBdrXFMjM=",
+    name:"Statue of Liberty",
+    country:"United States",
+    countrylink:"https://maps.app.goo.gl/5y6YkX8tYhXcQ7zF9",
+    desc:"The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor, gifted by France to the United States.",
+    link:"https://en.wikipedia.org/wiki/Statue_of_Liberty"
+},
+{
+    location:"https://maps.app.goo.gl/3y6YkX8tYhXcQ7zF9",
+    image:"https://media.gettyimages.com/id/522671926/photo/christ-the-redeemer-overlooking-rio-de-janeiro.jpg?s=612x612&w=0&k=20&c=_BpsmWedmFTk-hHIT3w9gPpNsVZxf0VkgvFtthdEDcY=",
+    name:"Christ the Redeemer",
+    country:"Brazil",
+    countrylink:"https://maps.app.goo.gl/3y6YkX8tYhXcQ7zF9",
+    desc:"Christ the Redeemer is a massive statue of Jesus Christ in Rio de Janeiro, Brazil, standing 30 meters tall atop Mount Corcovado.",
+    link:"https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+},
+{
+    location:"https://maps.app.goo.gl/2y6YkX8tYhXcQ7zF9",
+    image:"https://media.gettyimages.com/id/94330273/photo/crowds-at-the-colosseum-rome.jpg?s=612x612&w=0&k=20&c=DgzZhawy6Ji4c1GRdZS48LUiqF3xjJilWWKS7u7heB8=",
+    name:"Colosseum",
+    country:"Italy",
+    countrylink:"https://maps.app.goo.gl/2y6YkX8tYhXcQ7zF9",
+    desc:"The Colosseum is an ancient amphitheatre in Rome, Italy, and one of the greatest works of Roman architecture and engineering.",
+    link:"https://en.wikipedia.org/wiki/Colosseum"
+}
 ]
