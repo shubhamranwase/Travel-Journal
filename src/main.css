@@ -10,7 +10,7 @@ body {
 }
 
 .dark {
-  background: linear-gradient( rgba(60, 12, 12, 0.753),rgba(13, 61, 56, 0.621));
+  background: linear-gradient( rgba(60, 12, 12, 0.753),rgba(15, 77, 71, 0.621));
   .navbar {
     background-color: rgba(84, 5, 18, 0.877);
   }
@@ -192,7 +192,6 @@ a {
   margin-top: 5vh;
 }
 
-
 @keyframes scalecard {
     0% {
         transform: scale(1);
@@ -217,8 +216,6 @@ a {
     }
 }
 
-
-
 @keyframes imgcolor {
     0% {
     }
@@ -228,45 +225,3 @@ a {
     }
 }
 
-/*article:hover {
-    animation: scalecard 1s ease-in-out forwards;
-}
-
-article {
-  height: 40vh;
-  width: 30vh;
-  background-color: turquoise;
-  border-radius: 2rem;
-}
-
-article h3 {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  padding: 5%;
-}
-
-.contact-img {
-  aspect-ratio: 3 / 3;
-  width: 20vh;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  padding-inline: 5vh;
-  margin-top: 3vh;
-}
-
-.infocard {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10%;
-}
-
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  align-items: center;
-  justify-items: center;
-} */

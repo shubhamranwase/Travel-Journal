@@ -33,5 +33,8 @@ export default function Actions(){
         
     return(
             <div className="cursor"></div>
+            // <div className="coordinates">
+            //     <h1>{ClientX} & {ClientY}</h1>
+            // </div>
     )
 }
