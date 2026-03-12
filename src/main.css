@@ -2,6 +2,7 @@
     font-family: "Inter", sans-serif;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -74,6 +75,7 @@ body:has(.card:hover) {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .navbar {
@@ -94,8 +96,9 @@ span {
 }
 
 .img-container {
-  aspect-ratio: 3 / 3;
-  width: 35vh;
+  aspect-ratio: 1 / 1;
+  width: 300px;
+  max-width: 100%;
   object-fit: cover;
   object-position: center;
   border-radius: 1rem;
@@ -103,14 +106,23 @@ span {
 }
 
 .text-container {
-  width: 90vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   border-radius: 1rem;
   margin-top: 0.5rem;
   margin-right: 1rem;
-  text-align: justify;
+  text-align: left;
   padding-left: 1rem;
-  align-items: center;
   justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .card {
@@ -118,13 +130,35 @@ span {
   align-items: center;
   justify-content: center;
   background-color: rgb(85, 220, 207);
-  margin-inline: 14rem;
+  margin: 0.5rem auto;
   padding-block: 1rem;
   border-radius: 2rem;
   animation: card-appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 45%;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
 
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    margin-inline: 1rem;
+    box-sizing: border-box;
+    margin: 1rem auto;
+    width: 85vw;
+    align-items: flex-start;
+  }
+  .text-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    margin: 1rem 0 0 0;
+  }
+  .img-container {
+    margin-left: 1rem;
+  }
 }
 
 @keyframes card-appear {
