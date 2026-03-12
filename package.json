@@ -1,4 +1,5 @@
 {
+  "homepage":"https://shubhamranwase.github.io/Travel_Journal/",
   "name": "travel-journal",
   "private": true,
   "version": "0.0.0",
@@ -14,6 +15,7 @@
     "@fortawesome/free-regular-svg-icons": "^7.1.0",
     "@fortawesome/free-solid-svg-icons": "^7.1.0",
     "@fortawesome/react-fontawesome": "^3.2.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
