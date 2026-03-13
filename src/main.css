@@ -164,10 +164,11 @@ span {
     padding: 0 1rem;
     margin: 1rem 0 0 0;
   }
-  .img-container {
+  .img-main-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
 }
 

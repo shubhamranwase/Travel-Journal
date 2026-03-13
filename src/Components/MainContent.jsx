@@ -9,7 +9,9 @@ export default function MainContent(props) {
         return (
     <div className="main-container">
     <div className="card" key={index}>
-    <img className="img-container"  src={card.image} alt="img" />
+    <div className="img-main-container">
+            <img className="img-container"  src={card.image} alt="img" />
+    </div>
     <div className="text-container">
         <div className="info-container">
         <a className='country' href={card.countrylink}><FontAwesomeIcon icon={faLocationDot} />{card.country}</a>
