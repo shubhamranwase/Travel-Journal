@@ -37,7 +37,7 @@ export default [
     },
     {
     location:"https://maps.app.goo.gl/7u6YkX8tYhXcQ7zF9",
-    image:"https://imgs.search.brave.com/eut_aZFeeWLDGe6n0wqZo51ghQh_tef1CD-vfsMMt0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuaG9yaXpvbmd1/aWRlcy5jb20vaW1h/Z2VzL2d1aWRlcy9f/bWF0cml4SW1hZ2Uv/Q2hpbmFfR3JlYXRX/YWxsLmpwZw",
+    image:"https://imgs.search.brave.com/AEtWHGcLwehUt-YSlAdpSeK2L6_QlLRAfHfz5vpPai4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vLWJoVEUv/TUFHLUFvLWJoVEUv/MS90bC9jYW52YS1n/cmVhdC13YWxsLW9m/LWNoaW5hLWF0LXN1/bnNldC1NQUctQW8t/YmhURS5qcGc",
     name:"Great Wall of China",
     country:"China",
     countrylink:"https://maps.app.goo.gl/7u6YkX8tYhXcQ7zF9",
@@ -57,7 +57,7 @@ export default [
     location:"https://maps.app.goo.gl/5y6YkX8tYhXcQ7zF9",
     image:"https://media.gettyimages.com/id/1695583328/photo/sunset-behind-the-illuminated-statue-of-liberty-in-new-york-harbor.jpg?s=612x612&w=0&k=20&c=i7OQXwpTRqitCgk12zDoO0ufaxtzVZVU1MNBdrXFMjM=",
     name:"Statue of Liberty",
-    country:"United States",
+    country:"USA",
     countrylink:"https://maps.app.goo.gl/5y6YkX8tYhXcQ7zF9",
     desc:"The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor, gifted by France to the United States.",
     link:"https://en.wikipedia.org/wiki/Statue_of_Liberty"
