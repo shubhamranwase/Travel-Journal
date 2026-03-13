@@ -111,8 +111,8 @@ span {
   flex-direction: column;
   border-radius: 1rem;
   margin-top: 0.5rem;
-  margin-right: 1rem;
-  text-align: left;
+  margin-right: 2rem;
+  text-align: justify;
   padding-left: 1rem;
   justify-content: center;
 }
@@ -149,7 +149,7 @@ span {
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .card {
     flex-direction: column;
     margin-inline: 1rem;
@@ -161,14 +161,9 @@ span {
   .text-container {
     width: 100%;
     box-sizing: border-box;
-    padding: 0 1rem;
-    margin: 1rem 0 0 0;
-  }
-  .img-main-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    padding: 1rem;
+    margin: 1rem 1rem 0 1rem;
+    max-width: 92%;
   }
 }
 
