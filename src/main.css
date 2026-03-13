@@ -125,12 +125,20 @@ span {
   margin-bottom: 0.5rem;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .card {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(85, 220, 207);
-  margin: 0.5rem auto;
+  gap: 16px;
   padding-block: 1rem;
   border-radius: 2rem;
   animation: card-appear linear;

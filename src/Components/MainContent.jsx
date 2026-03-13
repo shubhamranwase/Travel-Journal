@@ -7,6 +7,7 @@ import CardData from './CardData'
 export default function MainContent(props) {
     const Card = CardData.map((card, index) => {
         return (
+    <div className="main-container">
     <div className="card" key={index}>
     <img className="img-container"  src={card.image} alt="img" />
     <div className="text-container">
@@ -17,6 +18,7 @@ export default function MainContent(props) {
         </div>
         <h1>{card.name}</h1>
         <p>{card.desc}</p>
+    </div>
     </div>
     </div>
         )
