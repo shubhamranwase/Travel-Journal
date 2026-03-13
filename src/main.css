@@ -165,7 +165,9 @@ span {
     margin: 1rem 0 0 0;
   }
   .img-container {
-    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
