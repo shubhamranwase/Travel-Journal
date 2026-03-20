@@ -5,10 +5,10 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import CardData from './CardData'
 
 export default function MainContent(props) {
-    const Card = CardData.map((card, index) => {
+    const Card = CardData.map((card) => {
         return (
-    <div className="main-container">
-    <div className="card" key={index}>
+    <div className="main-container" key={card.id}>
+    <div className="card" >
     <img className="img-container"  src={card.image} alt="img" />
     <div className="text-container">
         <div className="info-container">
