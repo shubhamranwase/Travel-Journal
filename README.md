@@ -6,10 +6,9 @@
 A fully responsive, interactive travel journal application built with **React.js**. This project elegantly showcases famous global destinations while demonstrating modern frontend engineering practices, including component-based architecture, CSS design tokens, advanced animations, and web accessibility (a11y).
 
 ## 📸 Previews
-![Desktop Preview](readme_assets/Screenshot_2026-08-14_002925.jpg)
-*Desktop View*
+![Desktop Preview](readme_assets/Screenshot%202026-08-14%20002925.png)
 
-![Mobile Preview](readme_assets/Screenshot_20260814-003551.jpg)
+![Mobile Preview](readme_assets/Screenshot_20260814-003551.png)
 *Mobile View*
 
 ## ✨ Features
