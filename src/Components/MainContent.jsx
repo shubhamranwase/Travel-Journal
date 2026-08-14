@@ -2,32 +2,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
-import CardData from './CardData'
+import CardData from '../Data/CardData'
 
-export default function MainContent(props) {
+export default function MainContent() {
     const Card = CardData.map((card) => {
         return (
-    <div className="main-container" key={card.id}>
-    <div className="card" >
-    <img className="img-container"  src={card.image} alt="img" />
-    <div className="text-container">
-        <div className="info-container">
-        <a className='country' href={card.countrylink}><FontAwesomeIcon icon={faLocationDot} />{card.country}</a>
-        <a className='wiki' href={card.link}><FontAwesomeIcon icon={faCircleInfo} /></a>
-        <span><a className='location' href={card.location}>View on google maps</a></span>
-        </div>
-        <h1>{card.name}</h1>
-        <p>{card.desc}</p>
-    </div>
-    </div>
-    </div>
+            <div className="main-container" key={card.id}>
+                <div className="card" >
+                    <img className="img-container" src={card.image} alt="img" />
+                    <div className="text-container">
+                        <div className="info-container">
+                            <a className='country' href={card.countrylink}><FontAwesomeIcon icon={faLocationDot} />{card.country}</a>
+                            <a className='wiki' href={card.link}><FontAwesomeIcon icon={faCircleInfo} /></a>
+                            <span><a className='location' href={card.location}>View on google maps</a></span>
+                        </div>
+                        <h1>{card.name}</h1>
+                        <p>{card.desc}</p>
+                    </div>
+                </div>
+            </div>
         )
     })
     return (
         <div className="gap">
             <div className="card-grid">
-            {Card}
-        </div>
+                {Card}
+            </div>
         </div>
     )
 }
