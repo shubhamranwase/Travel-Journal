@@ -8,9 +8,9 @@ A fully responsive, interactive travel journal application built with **React.js
 ## 📸 Previews
 
 <p align="center">
-  <img src="readme_assets/Screenshot%202026-08-14%20002925.png" alt="Desktop Preview" height="400" />
+  <img src="readme_assets/Screenshot%202026-08-14%20002925.png" alt="Desktop Preview" height="300" />
   &nbsp; &nbsp; &nbsp;
-  <img src="readme_assets/Screenshot_20260814-003551.png" alt="Mobile Preview" height="400" />
+  <img src="readme_assets/Screenshot_20260814-003551.png" alt="Mobile Preview" height="300" />
 </p>
 
 ## ✨ Features
@@ -21,43 +21,12 @@ A fully responsive, interactive travel journal application built with **React.js
 *   📜 **Scroll-Driven Animations:** Utilizes modern CSS feature queries (`@supports (animation-timeline: view())`) to progressively enhance the UI with buttery-smooth, scroll-triggered card reveal animations.
 *   ♿ **Accessible Design:** Implements explicit `:focus-visible` states to ensure full keyboard navigability for accessibility (WCAG compliance).
 
-## 🛠️ Tech Stack
-
-*   **Frontend Framework:** React.js (Functional Components, Hooks)
-*   **Styling:** Pure CSS3 (Custom Properties, Grid, Flexbox, Animations)
-*   **Icons:** FontAwesome
-*   **Typography:** Inter (with `system-ui` fallback)
-
-## 📂 Project Structure
-
-Travel_Journal/
-├── public/              # Static frontend assets (favicon, etc.)
-├── readme_assets/       # Images used exclusively for GitHub documentation
-├── src/
-│   ├── assets/          # Images and other project assets
-│   ├── Components/      # React components
-│   │   ├── Actions.jsx  # Custom cursor logic & event listeners
-│   │   ├── Header.jsx   # Navbar & Dark Mode toggle
-│   │   └── MainContent.jsx # Renders destination cards
-│   ├── Data/            # Data source folder
-│   ├── App.jsx          # Root component assembly
-│   ├── main.css         # Global styles, CSS Variables, and animations
-│   └── main.jsx         # React DOM rendering entry point
-├── index.html           # Main HTML file
-├── package.json         # Project metadata and dependencies
-├── README.md            # Project documentation
-└── vite.config.js       # Vite configuration
-
-```
-
 ## 🚀 Key Technical Implementations
 
 ### 1. Design Tokens (CSS Variables)
-
 Instead of hard-coding colors, the application uses a scalable `:root` variable system. This makes maintaining themes, updating branding, and toggling dark mode highly efficient.
 
 ### 2. Device-Aware Styling
-
 Hover states and custom cursors often break the mobile experience. This project uses precise media queries to ensure these interactions only happen on capable devices:
 
 ```css
@@ -72,6 +41,41 @@ Hover states and custom cursors often break the mobile experience. This project 
 ### 3. Performance Optimization
 
 The custom cursor tracks mouse movement using a React `useEffect` hook. To prevent frame-rate drops, the CSS utilizes `will-change: transform, left, top;`, offloading the rendering work to the device's GPU (Hardware Acceleration).
+
+## 🛠️ Tech Stack
+
+* **Frontend Framework:** React.js (Functional Components, Hooks)
+* **Styling:** Pure CSS3 (Custom Properties, Grid, Flexbox, Animations)
+* **Icons:** FontAwesome
+* **Typography:** Inter (with `system-ui` fallback)
+
+## 📂 Project Structure
+
+```text
+Travel_Journal/
+├── dist/                # Production build output
+├── node_modules/        # Project dependencies
+├── public/              # Public static assets
+├── readme_assets/       # Images for GitHub documentation
+├── src/
+│   ├── assets/          # Project assets (images, icons, etc.)
+│   ├── Components/      # React components
+│   │   ├── Actions.jsx  # Custom cursor logic & event listeners
+│   │   ├── Header.jsx   # Navbar & Dark Mode toggle
+│   │   └── MainContent.jsx # Renders destination cards
+│   ├── Data/            # Data source folder
+│   ├── App.jsx          # Primary application logic
+│   ├── main.css         # Global application styling
+│   └── main.jsx         # Application entry point
+├── .gitignore           # Git ignore rules
+├── eslint.config.js     # ESLint linting configuration
+├── index.html           # Main HTML entry
+├── package-lock.json    # Exact dependency tree versions
+├── package.json         # Project metadata and scripts
+├── README.md            # Project documentation
+└── vite.config.js       # Vite configuration
+
+```
 
 ## 💻 Getting Started
 
@@ -113,4 +117,4 @@ npm run dev
 * [LinkedIn](https://www.linkedin.com/in/shubham-ranwase)
 * [GitHub](https://github.com/shubhamranwase)
 
----
+```
