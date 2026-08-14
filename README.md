@@ -6,10 +6,12 @@
 A fully responsive, interactive travel journal application built with **React.js**. This project elegantly showcases famous global destinations while demonstrating modern frontend engineering practices, including component-based architecture, CSS design tokens, advanced animations, and web accessibility (a11y).
 
 ## 📸 Previews
-![Desktop Preview](readme_assets/Screenshot%202026-08-14%20002925.png)
 
-![Mobile Preview](readme_assets/Screenshot_20260814-003551.png)
-*Mobile View*
+<p align="center">
+  <img src="readme_assets/Screenshot%202026-08-14%20002925.png" alt="Desktop Preview" height="400" />
+  &nbsp; &nbsp; &nbsp;
+  <img src="readme_assets/Screenshot_20260814-003551.png" alt="Mobile Preview" height="400" />
+</p>
 
 ## ✨ Features
 
@@ -108,7 +110,7 @@ npm run dev
 
 **Shubham Ranwase**
 
-* [LinkedIn](www.linkedin.com/in/shubham-ranwase)
+* [LinkedIn](https://www.linkedin.com/in/shubham-ranwase)
 * [GitHub](https://github.com/shubhamranwase)
 
 ---
